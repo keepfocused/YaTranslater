@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840104871F99E035004E5006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104861F99E035004E5006 /* AppDelegate.m */; };
+		8401048A1F99E035004E5006 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104891F99E035004E5006 /* ViewController.m */; };
+		8401048D1F99E035004E5006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401048B1F99E035004E5006 /* Main.storyboard */; };
+		840104901F99E035004E5006 /* YaTranslater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8401048E1F99E035004E5006 /* YaTranslater.xcdatamodeld */; };
+		840104921F99E035004E5006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840104911F99E035004E5006 /* Assets.xcassets */; };
+		840104951F99E035004E5006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840104931F99E035004E5006 /* LaunchScreen.storyboard */; };
+		840104981F99E035004E5006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104971F99E035004E5006 /* main.m */; };
+		840104A21F99E035004E5006 /* YaTranslaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104A11F99E035004E5006 /* YaTranslaterTests.m */; };
+		840104AD1F99E035004E5006 /* YaTranslaterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104AC1F99E035004E5006 /* YaTranslaterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8401049E1F99E035004E5006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8401047A1F99E034004E5006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840104811F99E035004E5006;
+			remoteInfo = YaTranslater;
+		};
+		840104A91F99E035004E5006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8401047A1F99E034004E5006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840104811F99E035004E5006;
+			remoteInfo = YaTranslater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840104821F99E035004E5006 /* YaTranslater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaTranslater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840104851F99E035004E5006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840104861F99E035004E5006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840104881F99E035004E5006 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840104891F99E035004E5006 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8401048C1F99E035004E5006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8401048F1F99E035004E5006 /* YaTranslater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YaTranslater.xcdatamodel; sourceTree = "<group>"; };
+		840104911F99E035004E5006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840104941F99E035004E5006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840104961F99E035004E5006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840104971F99E035004E5006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8401049D1F99E035004E5006 /* YaTranslaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaTranslaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840104A11F99E035004E5006 /* YaTranslaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YaTranslaterTests.m; sourceTree = "<group>"; };
+		840104A31F99E035004E5006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840104A81F99E035004E5006 /* YaTranslaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaTranslaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840104AC1F99E035004E5006 /* YaTranslaterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YaTranslaterUITests.m; sourceTree = "<group>"; };
+		840104AE1F99E035004E5006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8401047F1F99E035004E5006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8401049A1F99E035004E5006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840104A51F99E035004E5006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840104791F99E034004E5006 = {
+			isa = PBXGroup;
+			children = (
+				840104841F99E035004E5006 /* YaTranslater */,
+				840104A01F99E035004E5006 /* YaTranslaterTests */,
+				840104AB1F99E035004E5006 /* YaTranslaterUITests */,
+				840104831F99E035004E5006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840104831F99E035004E5006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840104821F99E035004E5006 /* YaTranslater.app */,
+				8401049D1F99E035004E5006 /* YaTranslaterTests.xctest */,
+				840104A81F99E035004E5006 /* YaTranslaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840104841F99E035004E5006 /* YaTranslater */ = {
+			isa = PBXGroup;
+			children = (
+				840104851F99E035004E5006 /* AppDelegate.h */,
+				840104861F99E035004E5006 /* AppDelegate.m */,
+				840104881F99E035004E5006 /* ViewController.h */,
+				840104891F99E035004E5006 /* ViewController.m */,
+				8401048B1F99E035004E5006 /* Main.storyboard */,
+				840104911F99E035004E5006 /* Assets.xcassets */,
+				840104931F99E035004E5006 /* LaunchScreen.storyboard */,
+				840104961F99E035004E5006 /* Info.plist */,
+				840104971F99E035004E5006 /* main.m */,
+				8401048E1F99E035004E5006 /* YaTranslater.xcdatamodeld */,
+			);
+			path = YaTranslater;
+			sourceTree = "<group>";
+		};
+		840104A01F99E035004E5006 /* YaTranslaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				840104A11F99E035004E5006 /* YaTranslaterTests.m */,
+				840104A31F99E035004E5006 /* Info.plist */,
+			);
+			path = YaTranslaterTests;
+			sourceTree = "<group>";
+		};
+		840104AB1F99E035004E5006 /* YaTranslaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840104AC1F99E035004E5006 /* YaTranslaterUITests.m */,
+				840104AE1F99E035004E5006 /* Info.plist */,
+			);
+			path = YaTranslaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840104811F99E035004E5006 /* YaTranslater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840104B11F99E035004E5006 /* Build configuration list for PBXNativeTarget "YaTranslater" */;
+			buildPhases = (
+				8401047E1F99E035004E5006 /* Sources */,
+				8401047F1F99E035004E5006 /* Frameworks */,
+				840104801F99E035004E5006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YaTranslater;
+			productName = YaTranslater;
+			productReference = 840104821F99E035004E5006 /* YaTranslater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8401049C1F99E035004E5006 /* YaTranslaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840104B41F99E035004E5006 /* Build configuration list for PBXNativeTarget "YaTranslaterTests" */;
+			buildPhases = (
+				840104991F99E035004E5006 /* Sources */,
+				8401049A1F99E035004E5006 /* Frameworks */,
+				8401049B1F99E035004E5006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8401049F1F99E035004E5006 /* PBXTargetDependency */,
+			);
+			name = YaTranslaterTests;
+			productName = YaTranslaterTests;
+			productReference = 8401049D1F99E035004E5006 /* YaTranslaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840104A71F99E035004E5006 /* YaTranslaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840104B71F99E035004E5006 /* Build configuration list for PBXNativeTarget "YaTranslaterUITests" */;
+			buildPhases = (
+				840104A41F99E035004E5006 /* Sources */,
+				840104A51F99E035004E5006 /* Frameworks */,
+				840104A61F99E035004E5006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840104AA1F99E035004E5006 /* PBXTargetDependency */,
+			);
+			name = YaTranslaterUITests;
+			productName = YaTranslaterUITests;
+			productReference = 840104A81F99E035004E5006 /* YaTranslaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8401047A1F99E034004E5006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Danil;
+				TargetAttributes = {
+					840104811F99E035004E5006 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8401049C1F99E035004E5006 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 840104811F99E035004E5006;
+					};
+					840104A71F99E035004E5006 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 840104811F99E035004E5006;
+					};
+				};
+			};
+			buildConfigurationList = 8401047D1F99E034004E5006 /* Build configuration list for PBXProject "YaTranslater" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840104791F99E034004E5006;
+			productRefGroup = 840104831F99E035004E5006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840104811F99E035004E5006 /* YaTranslater */,
+				8401049C1F99E035004E5006 /* YaTranslaterTests */,
+				840104A71F99E035004E5006 /* YaTranslaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840104801F99E035004E5006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840104951F99E035004E5006 /* LaunchScreen.storyboard in Resources */,
+				840104921F99E035004E5006 /* Assets.xcassets in Resources */,
+				8401048D1F99E035004E5006 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8401049B1F99E035004E5006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840104A61F99E035004E5006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8401047E1F99E035004E5006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840104901F99E035004E5006 /* YaTranslater.xcdatamodeld in Sources */,
+				8401048A1F99E035004E5006 /* ViewController.m in Sources */,
+				840104981F99E035004E5006 /* main.m in Sources */,
+				840104871F99E035004E5006 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840104991F99E035004E5006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840104A21F99E035004E5006 /* YaTranslaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840104A41F99E035004E5006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840104AD1F99E035004E5006 /* YaTranslaterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8401049F1F99E035004E5006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840104811F99E035004E5006 /* YaTranslater */;
+			targetProxy = 8401049E1F99E035004E5006 /* PBXContainerItemProxy */;
+		};
+		840104AA1F99E035004E5006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840104811F99E035004E5006 /* YaTranslater */;
+			targetProxy = 840104A91F99E035004E5006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8401048B1F99E035004E5006 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8401048C1F99E035004E5006 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840104931F99E035004E5006 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840104941F99E035004E5006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840104AF1F99E035004E5006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840104B01F99E035004E5006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840104B21F99E035004E5006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3Q29257K;
+				INFOPLIST_FILE = YaTranslater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danil.YaTranslater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840104B31F99E035004E5006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3Q29257K;
+				INFOPLIST_FILE = YaTranslater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danil.YaTranslater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840104B51F99E035004E5006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3Q29257K;
+				INFOPLIST_FILE = YaTranslaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danil.YaTranslaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YaTranslater.app/YaTranslater";
+			};
+			name = Debug;
+		};
+		840104B61F99E035004E5006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3Q29257K;
+				INFOPLIST_FILE = YaTranslaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danil.YaTranslaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YaTranslater.app/YaTranslater";
+			};
+			name = Release;
+		};
+		840104B81F99E035004E5006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3Q29257K;
+				INFOPLIST_FILE = YaTranslaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danil.YaTranslaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YaTranslater;
+			};
+			name = Debug;
+		};
+		840104B91F99E035004E5006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3Q29257K;
+				INFOPLIST_FILE = YaTranslaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danil.YaTranslaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YaTranslater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8401047D1F99E034004E5006 /* Build configuration list for PBXProject "YaTranslater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840104AF1F99E035004E5006 /* Debug */,
+				840104B01F99E035004E5006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840104B11F99E035004E5006 /* Build configuration list for PBXNativeTarget "YaTranslater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840104B21F99E035004E5006 /* Debug */,
+				840104B31F99E035004E5006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840104B41F99E035004E5006 /* Build configuration list for PBXNativeTarget "YaTranslaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840104B51F99E035004E5006 /* Debug */,
+				840104B61F99E035004E5006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840104B71F99E035004E5006 /* Build configuration list for PBXNativeTarget "YaTranslaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840104B81F99E035004E5006 /* Debug */,
+				840104B91F99E035004E5006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8401048E1F99E035004E5006 /* YaTranslater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8401048F1F99E035004E5006 /* YaTranslater.xcdatamodel */,
+			);
+			currentVersion = 8401048F1F99E035004E5006 /* YaTranslater.xcdatamodel */;
+			path = YaTranslater.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8401047A1F99E034004E5006 /* Project object */;
+}
