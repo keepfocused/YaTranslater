@@ -1,18 +1,18 @@
 //
-//  YaTranslaterTests.m
-//  YaTranslaterTests
+//  YTSupportTests.m
+//  YaTranslater
 //
-//  Created by Admin on 20.10.17.
+//  Created by Danil on 11.12.17.
 //  Copyright © 2017 Danil. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface YaTranslaterTests : XCTestCase
+@interface YTSupportTests : XCTestCase
 
 @end
 
-@implementation YaTranslaterTests
+@implementation YTSupportTests
 
 - (void)setUp {
     [super setUp];
@@ -29,8 +29,11 @@
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
-- (void)testSupportInit {
-    
+- (void)testPerformanceExample {
+    // This is an example of a performance test case.
+    [self measureBlock:^{
+        // Put the code you want to measure the time of here.
+    }];
 }
 
 @end

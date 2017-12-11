@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83A74C761FDEE64600EAFB9A /* YTGetLangs.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A74C751FDEE64600EAFB9A /* YTGetLangs.m */; };
+		83A74C791FDEE67200EAFB9A /* YTSupportLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A74C781FDEE67200EAFB9A /* YTSupportLanguage.m */; };
+		83A74C7C1FDEE68200EAFB9A /* YTCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A74C7B1FDEE68200EAFB9A /* YTCountry.m */; };
+		83A74C7E1FDEE71400EAFB9A /* YTSupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A74C7D1FDEE71400EAFB9A /* YTSupportTests.m */; };
 		840104871F99E035004E5006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104861F99E035004E5006 /* AppDelegate.m */; };
 		8401048A1F99E035004E5006 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104891F99E035004E5006 /* ViewController.m */; };
 		8401048D1F99E035004E5006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401048B1F99E035004E5006 /* Main.storyboard */; };
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83A74C741FDEE64600EAFB9A /* YTGetLangs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTGetLangs.h; sourceTree = "<group>"; };
+		83A74C751FDEE64600EAFB9A /* YTGetLangs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTGetLangs.m; sourceTree = "<group>"; };
+		83A74C771FDEE67200EAFB9A /* YTSupportLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSupportLanguage.h; sourceTree = "<group>"; };
+		83A74C781FDEE67200EAFB9A /* YTSupportLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSupportLanguage.m; sourceTree = "<group>"; };
+		83A74C7A1FDEE68200EAFB9A /* YTCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCountry.h; sourceTree = "<group>"; };
+		83A74C7B1FDEE68200EAFB9A /* YTCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCountry.m; sourceTree = "<group>"; };
+		83A74C7D1FDEE71400EAFB9A /* YTSupportTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSupportTests.m; sourceTree = "<group>"; };
 		840104821F99E035004E5006 /* YaTranslater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaTranslater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840104851F99E035004E5006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		840104861F99E035004E5006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +91,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83A74C711FDED9C200EAFB9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83A74C731FDEE13B00EAFB9A /* Translater */,
+				83A74C721FDEE12F00EAFB9A /* Support */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		83A74C721FDEE12F00EAFB9A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				83A74C741FDEE64600EAFB9A /* YTGetLangs.h */,
+				83A74C751FDEE64600EAFB9A /* YTGetLangs.m */,
+				83A74C771FDEE67200EAFB9A /* YTSupportLanguage.h */,
+				83A74C781FDEE67200EAFB9A /* YTSupportLanguage.m */,
+				83A74C7A1FDEE68200EAFB9A /* YTCountry.h */,
+				83A74C7B1FDEE68200EAFB9A /* YTCountry.m */,
+				83A74C7D1FDEE71400EAFB9A /* YTSupportTests.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		83A74C731FDEE13B00EAFB9A /* Translater */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Translater;
+			sourceTree = "<group>";
+		};
 		840104791F99E034004E5006 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +144,7 @@
 		840104841F99E035004E5006 /* YaTranslater */ = {
 			isa = PBXGroup;
 			children = (
+				83A74C711FDED9C200EAFB9A /* Model */,
 				840104851F99E035004E5006 /* AppDelegate.h */,
 				840104861F99E035004E5006 /* AppDelegate.m */,
 				840104881F99E035004E5006 /* ViewController.h */,
@@ -197,6 +239,7 @@
 		8401047A1F99E034004E5006 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YT;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Danil;
 				TargetAttributes = {
@@ -270,6 +313,9 @@
 			files = (
 				840104901F99E035004E5006 /* YaTranslater.xcdatamodeld in Sources */,
 				8401048A1F99E035004E5006 /* ViewController.m in Sources */,
+				83A74C791FDEE67200EAFB9A /* YTSupportLanguage.m in Sources */,
+				83A74C7C1FDEE68200EAFB9A /* YTCountry.m in Sources */,
+				83A74C761FDEE64600EAFB9A /* YTGetLangs.m in Sources */,
 				840104981F99E035004E5006 /* main.m in Sources */,
 				840104871F99E035004E5006 /* AppDelegate.m in Sources */,
 			);
@@ -279,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A74C7E1FDEE71400EAFB9A /* YTSupportTests.m in Sources */,
 				840104A21F99E035004E5006 /* YaTranslaterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
