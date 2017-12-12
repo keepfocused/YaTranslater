@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		835418841FE01C8E00E3E3B3 /* YTCoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 835418831FE01C8E00E3E3B3 /* YTCoreDataService.m */; };
 		83A74C761FDEE64600EAFB9A /* YTGetLangs.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A74C751FDEE64600EAFB9A /* YTGetLangs.m */; };
 		83A74C791FDEE67200EAFB9A /* YTSupportLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A74C781FDEE67200EAFB9A /* YTSupportLanguage.m */; };
 		83A74C7C1FDEE68200EAFB9A /* YTCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A74C7B1FDEE68200EAFB9A /* YTCountry.m */; };
 		83A74C7E1FDEE71400EAFB9A /* YTSupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A74C7D1FDEE71400EAFB9A /* YTSupportTests.m */; };
 		840104871F99E035004E5006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104861F99E035004E5006 /* AppDelegate.m */; };
 		8401048A1F99E035004E5006 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104891F99E035004E5006 /* ViewController.m */; };
-		8401048D1F99E035004E5006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401048B1F99E035004E5006 /* Main.storyboard */; };
 		840104901F99E035004E5006 /* YaTranslater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8401048E1F99E035004E5006 /* YaTranslater.xcdatamodeld */; };
 		840104921F99E035004E5006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840104911F99E035004E5006 /* Assets.xcassets */; };
-		840104951F99E035004E5006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840104931F99E035004E5006 /* LaunchScreen.storyboard */; };
 		840104981F99E035004E5006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104971F99E035004E5006 /* main.m */; };
 		840104A21F99E035004E5006 /* YaTranslaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104A11F99E035004E5006 /* YaTranslaterTests.m */; };
 		840104AD1F99E035004E5006 /* YaTranslaterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840104AC1F99E035004E5006 /* YaTranslaterUITests.m */; };
@@ -40,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		835418821FE01C8E00E3E3B3 /* YTCoreDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCoreDataService.h; sourceTree = "<group>"; };
+		835418831FE01C8E00E3E3B3 /* YTCoreDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCoreDataService.m; sourceTree = "<group>"; };
 		83A74C741FDEE64600EAFB9A /* YTGetLangs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTGetLangs.h; sourceTree = "<group>"; };
 		83A74C751FDEE64600EAFB9A /* YTGetLangs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTGetLangs.m; sourceTree = "<group>"; };
 		83A74C771FDEE67200EAFB9A /* YTSupportLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSupportLanguage.h; sourceTree = "<group>"; };
@@ -52,10 +53,8 @@
 		840104861F99E035004E5006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		840104881F99E035004E5006 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		840104891F99E035004E5006 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8401048C1F99E035004E5006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8401048F1F99E035004E5006 /* YaTranslater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YaTranslater.xcdatamodel; sourceTree = "<group>"; };
 		840104911F99E035004E5006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		840104941F99E035004E5006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840104961F99E035004E5006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840104971F99E035004E5006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8401049D1F99E035004E5006 /* YaTranslaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaTranslaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +90,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		835418801FE01C1300E3E3B3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				835418811FE01C3500E3E3B3 /* CoreDataService */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		835418811FE01C3500E3E3B3 /* CoreDataService */ = {
+			isa = PBXGroup;
+			children = (
+				835418861FE025A700E3E3B3 /* Entity */,
+				835418821FE01C8E00E3E3B3 /* YTCoreDataService.h */,
+				835418831FE01C8E00E3E3B3 /* YTCoreDataService.m */,
+			);
+			name = CoreDataService;
+			sourceTree = "<group>";
+		};
+		835418851FE0259900E3E3B3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				835418881FE025DF00E3E3B3 /* CountryEntity */,
+				835418871FE025DB00E3E3B3 /* SupportEntity */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		835418861FE025A700E3E3B3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				835418851FE0259900E3E3B3 /* Support */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		835418871FE025DB00E3E3B3 /* SupportEntity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SupportEntity;
+			sourceTree = "<group>";
+		};
+		835418881FE025DF00E3E3B3 /* CountryEntity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CountryEntity;
+			sourceTree = "<group>";
+		};
 		83A74C711FDED9C200EAFB9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,14 +192,13 @@
 		840104841F99E035004E5006 /* YaTranslater */ = {
 			isa = PBXGroup;
 			children = (
+				835418801FE01C1300E3E3B3 /* Services */,
 				83A74C711FDED9C200EAFB9A /* Model */,
 				840104851F99E035004E5006 /* AppDelegate.h */,
 				840104861F99E035004E5006 /* AppDelegate.m */,
 				840104881F99E035004E5006 /* ViewController.h */,
 				840104891F99E035004E5006 /* ViewController.m */,
-				8401048B1F99E035004E5006 /* Main.storyboard */,
 				840104911F99E035004E5006 /* Assets.xcassets */,
-				840104931F99E035004E5006 /* LaunchScreen.storyboard */,
 				840104961F99E035004E5006 /* Info.plist */,
 				840104971F99E035004E5006 /* main.m */,
 				8401048E1F99E035004E5006 /* YaTranslater.xcdatamodeld */,
@@ -284,9 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840104951F99E035004E5006 /* LaunchScreen.storyboard in Resources */,
 				840104921F99E035004E5006 /* Assets.xcassets in Resources */,
-				8401048D1F99E035004E5006 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +363,7 @@
 				83A74C761FDEE64600EAFB9A /* YTGetLangs.m in Sources */,
 				840104981F99E035004E5006 /* main.m in Sources */,
 				840104871F99E035004E5006 /* AppDelegate.m in Sources */,
+				835418841FE01C8E00E3E3B3 /* YTCoreDataService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,25 +398,6 @@
 			targetProxy = 840104A91F99E035004E5006 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8401048B1F99E035004E5006 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8401048C1F99E035004E5006 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		840104931F99E035004E5006 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840104941F99E035004E5006 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		840104AF1F99E035004E5006 /* Debug */ = {
@@ -421,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -470,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

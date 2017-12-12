@@ -8,6 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+
+extern NSString *const KeySupportLanguagesDirs;
+extern NSString *const KeySupportLanguagesLangs;
+
+@class YTCountry;
 @interface YTSupportLanguage : NSObject
 
+@property (copy, nonatomic, readonly) NSArray<YTCountry*> *outputCountries;
+@property (copy, nonatomic, readonly) YTCountry *inputCountry;
+
+//init with new values
+
+- (instancetype) initWithInputOutputCode:(NSString *)inputOutputCode andLangsDictionary:(NSDictionary*) langsDictionary;
+
+//Add new values
+
+- (void) addInputOutputCode:(NSString *)inputOutputCode andLangsDictionary:(NSDictionary*)langsDictionary;
 @end

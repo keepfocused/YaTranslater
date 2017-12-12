@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@class YTSupportLanguage;
 @interface YTGetLangs : NSObject
+
+@property (strong, nonatomic, readonly) NSArray <YTSupportLanguage*> *supports;
+
+-(void)addInputOutputCountryCode:(NSString *)inputOutputCode andLangsDictionary:(NSDictionary *)langsDictionary;
 
 @end

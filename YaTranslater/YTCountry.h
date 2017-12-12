@@ -10,4 +10,8 @@
 
 @interface YTCountry : NSObject
 
+@property (strong, nonatomic, readonly) NSString *code;
+@property (strong, nonatomic, readonly) NSString *name;
+
+- (instancetype) initCountryCode:(NSString *)countryCode andCountryName:(NSString *)countryName;
 @end

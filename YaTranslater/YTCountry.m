@@ -9,5 +9,13 @@
 #import "YTCountry.h"
 
 @implementation YTCountry
+-(instancetype)initCountryCode:(NSString *)countryCode andCountryName:(NSString *)countryName {
+    self = [super init];
+    if (self) {
+        _code = countryCode;
+        _name = countryName;
+    }
+    return self;
+}
 
 @end
